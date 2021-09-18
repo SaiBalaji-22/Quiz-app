@@ -1,0 +1,66 @@
+.choice-container {
+    display: flex;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86,165,235,0.25);
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1rem 0 rgb(86,165,235,0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 200ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem; 
+    background-color: #56a5eb;
+    color: #fff;
+} 
+.choice-text {
+    color: #61C0BF;
+    padding: 1.5rem 1rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.wrong {
+    background-color: #dc3545;
+}
+
+/* hud */
+
+.hud-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.hud-text {
+    text-align: center;
+}
+
+/* progress-bar */
+
+#progressbar {
+    width: 20rem;
+    height: 4rem;
+    border: 0.4rem solid #56a5eb;
+    margin-top: 1.5rem;
+}
+
+#progressbarfull {
+    background-color: #56a5eb;
+    height: 3.4rem;
+    width: 0%;
+}

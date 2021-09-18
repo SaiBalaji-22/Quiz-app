@@ -1,0 +1,10 @@
+#highscorelist {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 4rem;
+}
+
+.list {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
