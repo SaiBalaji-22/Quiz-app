@@ -50,7 +50,7 @@ startGame = () => {
 getNewquestion = () => {
     if (avail_questions.length === 0 || counter >= max_questions) {
         localStorage.setItem('recentscore', score);
-        return window.location.assign("/end.html");
+        return window.location.assign("./end.html");
     }
 
     counter++;
