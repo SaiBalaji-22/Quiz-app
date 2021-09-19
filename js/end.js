@@ -9,7 +9,7 @@ const max_highscores = 5;
 
 finalscore.innerText = recentscore;
 
-username.addEventListener("keyup", () => {
+username.addEventListener("change", () => {
     savebtn.disabled = !username.value;
 })
 

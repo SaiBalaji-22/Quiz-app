@@ -60,11 +60,11 @@ getNewquestion = () => {
     const index = Math.floor(Math.random() * avail_questions.length);
     currentQuestion = avail_questions[index];
 
-    question.innerText = currentQuestion.question;
+    question.innerHTML =  currentQuestion.question;
 
     choices.forEach(choice => {
         const num = choice.dataset['number'];
-        choice.innerText = currentQuestion['choice' + num];
+        choice.innerHTML = currentQuestion['choice' + num];
     });
 
     avail_questions.splice(index, 1);
